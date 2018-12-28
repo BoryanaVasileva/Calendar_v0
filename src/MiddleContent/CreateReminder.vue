@@ -273,9 +273,9 @@
     }
     
     .btnClear {
-        @include dimensions(45%, 15%);
+        @include dimensions(46%, 14%);
         margin: 0% 2%;
-        padding-top: 0.2em;
+        padding-top: 0.5em;
         font-size: 1.2em;
         color: antiquewhite;
         cursor: pointer;
@@ -289,9 +289,9 @@
     }
     
     .btnSubmit {
-        @include dimensions(45%, 15%);
+        @include dimensions(46%, 14%);
         margin: 0% 2%;
-        padding-top: 0.2em;
+        padding-top: 0.5em;
         font-size: 1.2em;
         color: antiquewhite;
         cursor: pointer;
