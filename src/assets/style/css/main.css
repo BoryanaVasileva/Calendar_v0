@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background:  rgba(0, 0, 0, 0.9);
+    user-select: none;
+    width: 100vw;
+    height: 100vh;
+    -webkit-user-select: none; /* Chrome/Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /* font-size: inherit; */
+    /* font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300))); */
+  }
+  
+  html {
+    font-size: 9.1468vw;
+  }
+  
