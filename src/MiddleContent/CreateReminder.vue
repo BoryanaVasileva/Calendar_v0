@@ -23,8 +23,8 @@
                     <div>Hour</div>
     
                     <input id="selectedHour" type="number" min="0" max="24" v-model="eventHour" maxlength="2">h<br>
-                    <input id="selectedMin" type="number" min="0" max="60" v-model="eventMin" maxlength="2">m<br>
-                    <input id="selectedSec" type="number" min="0" max="60" v-model="eventSec" maxlength="2">s<br>
+                    <input id="selectedMin" type="number" min="0" max="59" v-model="eventMin" maxlength="2">m<br>
+                    <input id="selectedSec" type="number" min="0" max="59" v-model="eventSec" maxlength="2">s<br>
     
                 </div>
                 <div id="clear" class="btnClear" @click="clearForm()">Clear</div>
